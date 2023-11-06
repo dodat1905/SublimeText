@@ -23,5 +23,5 @@
 	"scroll_past_end": true,
 	"rulers": [120],
 	"show_encoding": true,
-	"folder_exclude_patterns": ["node_modules"],
+	"folder_exclude_patterns": ["node_modules", "tmp"],
 }
