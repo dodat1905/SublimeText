@@ -1,0 +1,27 @@
+{
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	/*"font_size": 12,*/
+	"highlight_line": true,
+	"font_face": "Fira Code",
+	"line_padding_top": 1,
+  "line_padding_bottom": 2,
+  "tab_size": 2,
+  "ensure_newline_at_eof_on_save": true,
+  "trim_trailing_white_space_on_save": true,
+	// "indent_guide_options":
+	// [
+	//     "draw_active",
+	//     "draw_normal",
+	//     "solid"
+	// ],
+	// "bracketOptions": "underline",
+	"theme": "Default.sublime-theme",
+	"scroll_past_end": true,
+	"rulers": [120],
+	"show_encoding": true,
+	"folder_exclude_patterns": ["node_modules"],
+}

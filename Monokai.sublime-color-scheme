@@ -1,0 +1,15 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+
+	},
+	"globals":
+	{
+		"active_guide": "hsla(55, 8%, 40%, 0.8)",
+	},
+	"rules":
+	[
+
+	]
+}

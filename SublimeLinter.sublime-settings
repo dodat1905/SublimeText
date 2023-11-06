@@ -1,0 +1,27 @@
+// SublimeLinter Settings - User
+{
+	"styles": [
+		{"annotation": "{msg}"}
+	],
+    "linters": {
+        "ruby": {
+            "excludes": ["*.html.slim"]
+        },
+        "jshint": {
+            "disable": false,
+            "args": ["--config", "~dodat/.jshintrc"],
+            "excludes": [],
+            "env": {
+                "PATH": "/opt/homebrew/opt/node@14/bin:$PATH"
+            }
+        }
+        // "eslint": {
+        //     "disable": false,
+        //     "args": ["--no-eslintrc"],
+        //     "excludes": [],
+        //     "env": {
+        //         "PATH": "/opt/homebrew/opt/node@14/bin:$PATH"
+        //     }
+        // },
+    },
+}
