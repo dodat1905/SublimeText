@@ -4,7 +4,6 @@
 	[
 		"Vintage",
 	],
-	/*"font_size": 12,*/
 	"highlight_line": true,
 	"font_face": "Fira Code",
 	"line_padding_top": 1,
@@ -18,10 +17,10 @@
 	//     "draw_normal",
 	//     "solid"
 	// ],
-	// "bracketOptions": "underline",
 	"theme": "Default.sublime-theme",
 	"scroll_past_end": true,
 	"rulers": [120],
 	"show_encoding": true,
 	"folder_exclude_patterns": ["node_modules", "tmp"],
+	"show_full_path": true,
 }
