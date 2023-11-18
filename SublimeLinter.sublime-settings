@@ -5,12 +5,12 @@
 	],
     "linters": {
         "ruby": {
-            "excludes": ["*.html.slim"]
+            "excludes": ["*.html.slim", "*.slim", "*.js.erb"]
         },
         "jshint": {
             "disable": false,
             "args": ["--config", "~dodat/.jshintrc"],
-            "excludes": [],
+            "excludes": ["*.js.erb"],
             "env": {
                 "PATH": "/opt/homebrew/opt/node@14/bin:$PATH"
             }

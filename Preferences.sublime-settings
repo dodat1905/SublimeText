@@ -21,6 +21,7 @@
 	"scroll_past_end": true,
 	"rulers": [120],
 	"show_encoding": true,
-	"folder_exclude_patterns": ["node_modules", "tmp"],
+	"folder_exclude_patterns": ["node_modules", "tmp", "app/assets/fonts"],
 	"show_full_path": true,
+	"translate_tabs_to_spaces": true,
 }
