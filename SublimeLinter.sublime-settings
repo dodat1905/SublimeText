@@ -7,13 +7,15 @@
         "ruby": {
             "excludes": ["*.html.slim", "*.slim", "*.js.erb"]
         },
-        "jshint": {
-            "disable": false,
-            "args": ["--config", "~dodat/.jshintrc"],
-            "excludes": ["*.js.erb"],
-            "env": {
-                "PATH": "/opt/homebrew/opt/node@14/bin:$PATH"
-            }
+         "jshint": {
+              "disable": false,
+              "args": ["--config", "~/.jshintrc"],
+              "excludes": ["*.js.erb"],
+              "env": {
+                "PATH": "/Users/dat/.asdf/shims:$PATH",
+                "NODE_PATH": "/Users/dat/.asdf/shims"
+              },
+              "executable": "/Users/dat/.asdf/shims/jshint"
         }
         // "eslint": {
         //     "disable": false,

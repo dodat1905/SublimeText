@@ -1,9 +1,5 @@
 {
 	"color_scheme": "Monokai.sublime-color-scheme",
-	"ignored_packages":
-	[
-		"Vintage",
-	],
 	"highlight_line": true,
 	"font_face": "Fira Code",
 	"line_padding_top": 1,
@@ -21,7 +17,12 @@
 	"scroll_past_end": true,
 	"rulers": [120],
 	"show_encoding": true,
-	"folder_exclude_patterns": ["node_modules", "tmp", "app/assets/fonts"],
+	"folder_exclude_patterns": ["node_modules", "app/assets/fonts"],
 	"show_full_path": true,
 	"translate_tabs_to_spaces": true,
+	"index_files": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 }
