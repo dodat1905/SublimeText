@@ -11,19 +11,7 @@
               "disable": false,
               "args": ["--config", "~/.jshintrc"],
               "excludes": ["*.js.erb"],
-              "env": {
-                "PATH": "/Users/dat/.asdf/shims:$PATH",
-                "NODE_PATH": "/Users/dat/.asdf/shims"
-              },
-              "executable": "/Users/dat/.asdf/shims/jshint"
+              "executable": "/Users/dat/.local/share/mise/installs/node/14.20.0/bin/jshint"
         }
-        // "eslint": {
-        //     "disable": false,
-        //     "args": ["--no-eslintrc"],
-        //     "excludes": [],
-        //     "env": {
-        //         "PATH": "/opt/homebrew/opt/node@14/bin:$PATH"
-        //     }
-        // },
     },
 }
